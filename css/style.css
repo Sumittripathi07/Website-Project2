@@ -1,0 +1,147 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.navbar::before {
+    content: "";
+    background: url(../img/bg.jpg) no-repeat center center;
+    top: 0%;
+    background-size: cover;
+    left: 0%;
+    width: 100%;
+    position: absolute;
+    height: 85vh;
+    z-index: -1;
+    /* opacity: 0.8; */
+}
+
+.navbar {
+    display: flex;
+    background-color: black;
+    
+}
+.logo img{
+    height: 25px;
+    margin-left: 12px;
+    cursor: pointer;
+}
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+
+.nav-left ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+
+.nav-left ul li a:hover {
+    color: tomato;
+    background-color: #050402;
+    border-radius: 4px;
+}
+
+.nav-left ul li {
+
+    padding: 2px 22px;
+}
+
+
+.nav-right {
+    display: flex;
+    position: absolute;
+    right: 0px;
+    justify-content: center;
+    align-items: center;
+    height: 29px;
+}
+
+.nav-right input {
+    padding: 3px;
+    font-size: 15px;
+    border-radius: 9px;
+}
+
+.nav-right button {
+    background: none;
+    width: 35px;
+    height: 29px;
+    filter:invert(100%);
+    cursor: pointer;
+}
+
+.cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 80px;
+    margin-bottom: 0px;
+}
+.cont img{
+    height: 290px;
+    border-radius: 80px;
+}
+.text h1{
+    text-align: center;
+    font-size: 38px;
+}
+.para1{
+    padding: 6px 63px;
+    text-align: center;
+    font-size: 18px;
+}
+.mainBox{
+    margin-top: 90px;
+    background-color: rgb(245 245 245);
+    padding-top: 30px;
+    height: 550px;
+}
+.inBox{
+    text-align: center;
+}
+.box-pic{
+    height: 150px;
+    border-radius: 18px;
+}
+.box-para{
+    padding: 0px 20px;
+    text-align: center;
+}
+.box{
+    display: flex;
+    width: 75%;
+    align-items: center;
+    margin: 22px auto;
+}
+.rev{
+    flex-direction: row-reverse;
+}
+
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.contact input{
+    width: 35%;
+    font-size: 18px;
+    padding: 4px 12px;
+    margin: 6px 0px;
+    font-weight: bold;
+}
+.contact h2{
+    font-size: 40px;
+}
+
+footer{
+    margin-top: 15px;
+    text-align: center;
+    background-color: gray;
+    font-size: 18px;
+}
